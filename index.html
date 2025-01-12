@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de Monitoramento Web</title>
+
+    <!--link bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--header-->
+    <header class="navbar navbar navbar-expand-lg d-flex align-items-center">
+        <div class="container-fluid d-flex align-items-center h-100 w-100">
+            <!--header-logo-->
+            <h1 class="align-self-center text-black mx-2">{ . }</h1>
+
+            <!--btn/icone hambuguer para tela sm-->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-list" style="font-size: 6vh;"></i>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse mx-4" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#video">Video</a>
+                </li>
+
+            </ul>
+
+
+        </div>
+    </header>
+
+    <!--section infor start-->
+    <section class="d-flex justify-content-center align-items-center bg-success vh-100">
+        <h1>Página 1</h1>
+    </section>
+
+    <section class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-sm-12 p-5 bg-warning">
+            <form>
+                <h3 class="text-center">Formulário</h3>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <div class="col text-center py-5 h-100">
+            <iframe width="auto" height="auto" id="video" src="https://www.youtube.com/embed/eV4UcOAIP-4?si=rMe3aBafxzqN8FSP"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="d-flex justify-content-center align-items-center bg-info h-100">
+        <a href="/pages/segundapag.html" class="text-black my-5">Ir para a segunda pagina</a>
+    </section>
+
+    <footer class="bg-black text-center p-2">
+        <span class="text-white">Todos os direitos reservados!</span>
+    </footer>
+
+
+
+    <script src="js/calendar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
